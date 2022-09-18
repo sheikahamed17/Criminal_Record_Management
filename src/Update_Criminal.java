@@ -29,7 +29,7 @@ public class Update_Criminal implements ActionListener {
     static JButton addCriminal;
     static JLabel success;
 
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Update Criminal");
         panel = new JPanel();
         f.setSize(400,500);
@@ -156,5 +156,9 @@ public class Update_Criminal implements ActionListener {
         catch (Exception ex) {
             System.out.println(ex);
         }
+    }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
 }

@@ -14,7 +14,7 @@ public class SignupPage implements ActionListener {
     static JPasswordField repasswordText;
     static JButton signupButton;
     static JLabel success;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Signup");
         panel = new JPanel();
         f.setSize(350,220);
@@ -55,7 +55,8 @@ public class SignupPage implements ActionListener {
         success.setBounds(80,145,300,25);
         panel.add(success);
 
-        f.setVisible(true);
+//        SignupPage s = new SignupPage();
+//        f.setVisible(s.setvisible());
     }
 
     @Override
@@ -93,5 +94,9 @@ public class SignupPage implements ActionListener {
         catch (Exception e1) {
             e1.printStackTrace();
         }
+    }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
 }

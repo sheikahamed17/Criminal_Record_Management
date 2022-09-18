@@ -12,7 +12,7 @@ public class delete_Criminal implements ActionListener {
     static JLabel fileNumber;
     static JTextField fileNumberText;
     static JLabel success;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Delete Criminal");
         panel = new JPanel();
         f.setSize(400,250);
@@ -92,5 +92,9 @@ public class delete_Criminal implements ActionListener {
         catch (Exception ex) {
             ex.printStackTrace();
         }
+    }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
 }

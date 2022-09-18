@@ -14,6 +14,7 @@ public class LoginPage implements ActionListener {
     static JPasswordField passwordText ;
     static JLabel success = new JLabel(" ");
     static Button loginButton = new Button("Login");
+    static Button signupButton = new Button("Signup");
     public static void main(String[] args) {
         f = new JFrame();
         panel = new JPanel();
@@ -39,9 +40,20 @@ public class LoginPage implements ActionListener {
         panel.add(passwordText);
 
         loginButton = new Button("Login");
-        loginButton.setBounds(100,100,80,25);
+        loginButton.setBounds(50,100,80,25);
         loginButton.addActionListener(new LoginPage());
         panel.add(loginButton);
+
+        signupButton = new Button("Signup");
+        signupButton.setBounds(150,100,80,25);
+        signupButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                SignupPage s = new SignupPage();
+                s.setvisible();
+            }
+        });
+        panel.add(signupButton);
 
         success = new JLabel(" ");
         success.setBounds(90,125,300,25);
@@ -75,6 +87,7 @@ public class LoginPage implements ActionListener {
                 if(user.equals(checkName) && password.equals(checkPass)){
                     System.out.println("Login");
                     success.setText("Login Successful");
+
                     break;
                 }
                 else {

@@ -25,7 +25,7 @@ public class Add_Criminal implements ActionListener {
     static JComboBox<String> JailTerms;
     static JButton addCriminal;
     static JLabel success;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Add Criminal");
         panel = new JPanel();
         f.setSize(400,520);
@@ -153,4 +153,8 @@ public class Add_Criminal implements ActionListener {
         }
 
     }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
+}

@@ -20,7 +20,7 @@ public class EditUser implements ActionListener {
     static JPasswordField repasswordText;
     static JButton updateButton;
     static JLabel success;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Signup");
         panel = new JPanel();
         f.setSize(320,280);
@@ -106,5 +106,9 @@ public class EditUser implements ActionListener {
         catch (Exception e1) {
             e1.printStackTrace();
         }
+    }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
 }

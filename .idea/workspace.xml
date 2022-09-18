@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccd822e5-77d2-46c7-ac76-e07567e488cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Criminal_Record_Management.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Add_Criminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EditUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL_Connection/SQL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SQL_Connection/delete_user.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SignupPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Update_Criminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/delete_Criminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Add_Criminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Add_Criminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EditUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EditUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Update_Criminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Update_Criminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delete_Criminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/delete_Criminal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/delete_user.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/delete_user.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

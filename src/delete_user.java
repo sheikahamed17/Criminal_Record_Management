@@ -14,7 +14,7 @@ public class delete_user implements ActionListener {
     static JPasswordField repasswordText;
     static JButton deleteButton;
     static JLabel success;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame("Delete User");
         panel = new JPanel();
         f.setSize(350,220);
@@ -97,5 +97,9 @@ public class delete_user implements ActionListener {
         catch (Exception e1) {
             e1.printStackTrace();
         }
+    }
+    void setvisible() {
+        main();
+        f.setVisible(true);
     }
 }
