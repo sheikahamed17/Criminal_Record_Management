@@ -24,7 +24,7 @@ public class Dashboard {
     static JLabel editUserLabel;
     static JLabel deleteUserLabel;
     static JLabel exitLabel;
-    public static void main(String[] args) {
+    public static void main() {
         f = new JFrame();
         panel = new JPanel();
         f.setSize(600,500);
@@ -148,5 +148,9 @@ public class Dashboard {
 
         f.setVisible(true);
         f.setLocationRelativeTo(null);
+    }
+    void setvisible(){
+        main();
+        f.setVisible(true);
     }
 }

@@ -87,7 +87,10 @@ public class LoginPage implements ActionListener {
                 if(user.equals(checkName) && password.equals(checkPass)){
                     System.out.println("Login");
                     success.setText("Login Successful");
-
+                    Dashboard d = new Dashboard();
+                    d.setvisible();
+                    d.setvisible();
+                    d.setvisible();
                     break;
                 }
                 else {
